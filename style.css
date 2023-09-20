@@ -1,0 +1,141 @@
+body {
+    background-color: #DBF9FC;
+    cursor: url("./images/pinkcursor.png"), default;
+}
+
+.wordart {
+  font-family: Arial, sans-serif;
+  font-size: 10em;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align:center
+}
+
+.wordart.blues .text {
+    font-family: Impact, sans-serif;
+    color: #24c0fd;
+    -webkit-text-stroke: 0.01em #0000aa;
+    filter: progid:DXImageTransform.Microsoft.Glow(Color=#0000aa,Strength=1);
+    text-shadow: 0.13em -0.13em 0px #0000aa;
+    letter-spacing: -0.05em;
+    text-align:center
+}
+
+.title {
+  position: center;
+}
+
+.title:hover {
+    color: red;
+}
+
+div1 {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.columnb {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  cursor: url("./images/melb128.gif"), default;
+}
+
+.columnc {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  cursor: url("./images/melc128.gif"), default;
+}
+
+.columnv {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  cursor: url("./images/victoria128.gif"), default;
+}
+
+.columne {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  cursor: url("./images/emma128.gif"), default;
+}
+
+.columng {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px;
+  cursor: url("./images/geri128.gif"), default;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #e3e3e3;
+}
+
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #d5ec6c;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #37b1e6;
+  color: rgb(255, 255, 255);
+}
+
+.customerslink {
+  cursor: url("./images/musiccursor40.png"), default;
+}
+
+.rowtable {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.columntable {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
