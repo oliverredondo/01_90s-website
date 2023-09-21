@@ -1,6 +1,12 @@
 body {
+  background-image: url('./images/background_left.png'), url("./images/background_right.png");
+  background-repeat: no-repeat;
+  background-position: left, right;
     background-color: #82dae2;
     cursor: url("./images/pinkcursor.png"), default;
+}
+
+.background-left {
 }
 
 .wordart {
