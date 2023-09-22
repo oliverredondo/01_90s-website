@@ -53,6 +53,8 @@ div1 {
 
 .container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 * {
@@ -61,31 +63,41 @@ div1 {
 
 .columnb {
   padding: 10px;
-  height: ;
+  margin: 10px;
+  background-color: #93c255;
+  max-width: 300px;
   cursor: url("./images/melb128.gif"), default;
 }
 
 .columnc {
   padding: 10px;
-  height: ;
+  margin: 10px;
+  background-color: #f3eb4d;
+  max-width: 300px;
   cursor: url("./images/melc128.gif"), default;
 }
 
 .columnv {
   padding: 10px;
-  height: ;
+  margin: 10px;
+  background-color: #eb453e;
+  max-width: 300px;
   cursor: url("./images/victoria128.gif"), default;
 }
 
 .columne {
   padding: 10px;
-  height: ;
+  margin: 10px;
+  background-color: #eeaec7;
+  max-width: 300px;
   cursor: url("./images/emma128.gif"), default;
 }
 
 .columng {
   padding: 10px;
-  height: ;
+  margin: 10px;
+  background-color: #bd5661;
+  max-width: 300px;
   cursor: url("./images/geri128.gif"), default;
 }
 
