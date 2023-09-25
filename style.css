@@ -8,8 +8,8 @@ body {
   background-image: url("./images/background_left.png"),
     url("./images/background_right.png"), url("./images/footer\ img.png");
   background-repeat: no-repeat;
-  background-position: left, right, bottom;
-  background-size: contain, contain, 20%;
+  background-position: top left, top right, bottom;
+  background-size: 300px, 300px, 500px;
 }
 
 .wordart {
